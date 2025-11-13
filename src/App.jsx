@@ -1,6 +1,6 @@
 import './App.css';
-import { CFooter } from './components/CFooter';
-import CHeader from './components/CHeader';
+import { CFooter } from './components/CFooter.jsx';
+import CHeader from './components/CHeader.jsx';
 
 function App() {
   return (
