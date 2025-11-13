@@ -1,11 +1,11 @@
-import ReactLogo from './assets/logo.svg';
 import './App.css';
 import { CFooter } from './components/CFooter';
-import React from "react";
+import CHeader from './components/CHeader';
 
 function App() {
   return (
     <div className="App">
+      <CHeader />
       <CFooter />
     </div>
   );
