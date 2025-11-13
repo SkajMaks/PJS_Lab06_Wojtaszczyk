@@ -1,14 +1,30 @@
-function CFooter() {
-  const date = new Date();
+import React from "react";
 
-  return (
-    <div>
-      <h5>
-        Programowanie JavaScript, przykładowy serwis React.  
-        Dzisiaj mamy: {date.toString()}
-      </h5>
-    </div>
-  );
+// stara wersja zakomentowana
+// function CFooter(){
+//     let date = new Date();
+//     return (
+//         <div>
+//             <h5>
+//                 Prog. JS, przykładowy serwis React. Dzisiaj mamy: {date.toString()}
+//             </h5>
+//         </div>
+//     );
+// }
+
+// NOWA WERSJA – FUNKCJA STRZAŁKOWA
+export const CFooter = () => {
+    let date = new Date();
+    return(
+        <div>
+            <h5>
+                Prog. JS, przykładowy serwis React. Dzisiaj mamy: {" "}
+                {date.toString()}{ " " }
+            </h5>
+        </div>
+    );
 }
 
-export default CFooter;
+// export default CFooter;
+
+

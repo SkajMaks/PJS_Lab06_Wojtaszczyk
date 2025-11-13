@@ -1,6 +1,7 @@
 import ReactLogo from './assets/logo.svg';
 import './App.css';
-import CFooter from './components/CFooter';
+import { CFooter } from './components/CFooter';
+import React from "react";
 
 function App() {
   return (
@@ -11,4 +12,3 @@ function App() {
 }
 
 export default App;
-
